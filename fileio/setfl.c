@@ -1,6 +1,7 @@
 #include "apue.h"
 #include <fcntl.h>
 
+//获取&设置file status flags
 void
 set_fl(int fd, int flags) /* flags are file status flags to turn on */
 {
